@@ -36,7 +36,8 @@ public class DataDrivenTesting {
 		FileOutputStream out = null;
 
 		// Creating an object of File class for open file
-		File excelFile = new File("D:\\ProgramFiles\\JAVA_automation\\Q1_Assignment\\Excel.xlsx");
+		//File excelFile = new File("D:\\ProgramFiles\\JAVA_automation\\Q1_Assignment\\Excel.xlsx");
+		File excelFile = new File("./Excel.xlsx");
 		// Creating an object of FileInputStream to read data from file
 		try {
 			inputStream = new FileInputStream(excelFile);
